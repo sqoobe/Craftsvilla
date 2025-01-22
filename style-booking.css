@@ -47,3 +47,85 @@ body{
     padding-top: 3em;
     border-radius: 250px;
 }
+.lerret-info{
+    color: white;
+    margin-bottom: 55px;
+}
+.akvarell-info{
+    
+    /* border: 2px solid red; */
+    margin-bottom: 30px;
+}
+.mosaikk-info{
+    color: white;
+    margin-bottom: 55px;
+}
+h1{
+    margin-top: 10px;
+    text-align: end;
+    font-family: Prompt;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    
+}
+h2{
+    text-align: center;
+    font-family: Prompt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 132%;
+    
+}
+p{
+    text-align: center;
+    font-family: Prompt;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+button{
+margin-left: 30px;
+display: flex;
+width: 185px;
+height: 48px;
+flex-direction: row;
+align-items: center;
+justify-content: start;
+padding-left: 20px;
+color: white;
+border: none;
+border-radius: 25px;
+background-color: #6DC202;
+font-family: Prompt;
+font-weight: 900;
+font-size: 22px;
+text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+white-space: nowrap;
+}
+#mosaikk-btn{
+    background-color:#FFEB02;
+}
+#lerret-btn{
+    background-color: #4279F0;
+}
+
+#btn{
+    display: flex;
+    margin-left: 8px;
+    padding-left: 10px;
+    flex-direction: row;
+    height: 48px
+}
+/* 
+button{
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+    height: 48px;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border-radius: 25px;
+} */
