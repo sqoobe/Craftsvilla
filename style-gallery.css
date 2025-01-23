@@ -16,7 +16,7 @@ body{
     height: 720px;
 }
 .img-container{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 92%;
     height: 600px;
     display: flex;
@@ -34,7 +34,7 @@ body{
 
 }
 .top {
-    border: 2px solid rgb(255, 0, 0);
+    /* border: 2px solid rgb(255, 0, 0); */
     width: 100%;
     display: flex;
 }
@@ -54,7 +54,7 @@ body{
     width: 150px;
 }
 .img-container .bot {
-    border: 2px solid rgb(13, 255, 0);
+    /* border: 2px solid rgb(13, 255, 0); */
     width: 100%;
     gap: 15px;
     height: 45%;
@@ -64,7 +64,7 @@ body{
 }
 
 .bot {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     width: 100%;
     display: flex;
 }
@@ -142,7 +142,7 @@ body{
 
 .bottom-txt{
     scale: 90%;
-    margin-left: 50px;
+    margin-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
 }

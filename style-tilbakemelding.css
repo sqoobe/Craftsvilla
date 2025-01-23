@@ -59,7 +59,7 @@ body{
     display: flex;
     align-items: center;
     background-color: azure;
-    height: 600px;
+    height: 580px;
     width: auto;
     margin: 50px;
 
@@ -72,7 +72,6 @@ body{
     
 }
 .christy-box p{
-
     width: 72%;
 }
 .samuel-img{
@@ -93,7 +92,8 @@ body{
     background-color: #6DC202;
     width: 80%;
     height: 580px;
-    align-items: start;
+    margin: 10px;
+
 }
 .text-box h1 {
     padding-top: 15%;
@@ -101,7 +101,8 @@ body{
     line-height: 100%;
 }
 .text-box p {
-    width: 60%;
+    width: 75%;
+    font-weight: 500;
     padding-top: 20px;
 }
 button{
@@ -125,7 +126,7 @@ button{
 h1{
     color: white;
     font-weight: 900;
-    font-size: 92px;
+    font-size: 87px;
     text-align: start;
     
 }
