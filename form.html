@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Nettsted</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Min Nettsted med HTML og CSS</h1>
+</header>
+
+<div class="container">
+
+    <!-- Form Section -->
+    <div class="form-container">
+        <h2>Registrer deg</h2>
+        <form>
+            <label for="name">Navn</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-post</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="gender">Kjønn</label>
+            <select id="gender" name="gender">
+                <option value="male">Mann</option>
+                <option value="female">Kvinne</option>
+                <option value="other">Annet</option>
+            </select>
+
+            <label for="accept">Aksepter vilkårene</label>
+            <input type="checkbox" id="accept" name="accept" required>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
