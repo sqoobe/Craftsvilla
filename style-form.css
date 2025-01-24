@@ -1,0 +1,96 @@
+
+
+/* Global Styles */
+body {
+    font-family: Prompt;
+    margin: 0;
+    padding: 0;
+    background-color: #6DC202;
+    color: #000000;
+}
+
+header {
+    font-family: Prompt;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10; /* Ensures the header is above other content */
+    width: 100%;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+/* Flexbox Layout */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 5rem;
+    margin: 10px;
+}
+.calendar{
+    flex-direction: row;
+    border-radius: 60px;
+    /* border: 6px solid rebeccapurple; */
+    object-fit: contain;
+}
+.form-container {
+    /* border: 2px solid red; */
+    width: 80%;
+    max-width: 500px;
+    background-color: #FFEB02;
+    padding: 2rem;
+    border-radius: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    font-family: Prompt;
+    font-weight: 700;
+    background-color: #4279F0;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #6DC202;
+}
+
+/* Styling Links */
+a {
+    color: #4279F0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

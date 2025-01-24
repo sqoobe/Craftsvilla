@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min Nettsted</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Velg kurs</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style-form.css">
 </head>
 <body>
 
 <header>
-    <h1>Min Nettsted med HTML og CSS</h1>
+    <h1>WORKSHOP CALENDAR</h1>
 </header>
+
 
 <div class="container">
 
     <!-- Form Section -->
     <div class="form-container">
-        <h2>Registrer deg</h2>
+        <h2>CRAFTSVILLA</h2>
         <form>
             <label for="name">Navn</label>
             <input type="text" id="name" name="name" required>
@@ -25,16 +27,23 @@
             <label for="email">E-post</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="gender">Kjønn</label>
-            <select id="gender" name="gender">
-                <option value="male">Mann</option>
-                <option value="female">Kvinne</option>
-                <option value="other">Annet</option>
+            <label for="kurs">Velg kurs</label>
+            <select id="kurs" name="kurs">
+                <option value="pick-one">Velg kurs</option>
+                <option value="mosaikk">Mosaikk workshop</option>
+                <option value="lerret">Lerretsmaling</option>
+                <option value="akvarell">Akvarellmaling</option>
             </select>
 
             <label for="accept">Aksepter vilkårene</label>
-            <input type="checkbox" id="accept" name="accept" required>
+            <input class="accept" type="checkbox" id="accept" name="accept" required>
 
             <button type="submit">Send</button>
         </form>
+
     </div>
+    <div class="calendar">
+        
+        <iframe src="https://calendar.google.com/calendar/embed?src=ba1a8ae1f1bc1d4db4d78a7c5ceb0bd0dfe0f4c0463a7b994cf229886e699780%40group.calendar.google.com&ctz=Europe%2FOslo" style="border: 0" width="720" height="580"></iframe>
+    </div>
+</div>
