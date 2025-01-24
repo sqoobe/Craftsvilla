@@ -130,3 +130,15 @@ button{
     font-weight: 400;
     border-radius: 25px;
 } */
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    color: #000000;
+  }
+  

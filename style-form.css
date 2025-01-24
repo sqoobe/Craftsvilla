@@ -44,7 +44,7 @@ h2 {
     flex-direction: row;
     border-radius: 60px;
     /* border: 6px solid rebeccapurple; */
-    object-fit: contain;
+    object-fit: fill;
 }
 .form-container {
     /* border: 2px solid red; */
