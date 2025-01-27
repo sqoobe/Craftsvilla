@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{       
+body{
     background-color: black;
 }
 .gallery-container{
@@ -14,6 +14,7 @@ body{
     flex-direction: column;
     width: 100%;
     height: 720px;
+
 }
 .img-container{
     /* border: 2px solid yellow; */
@@ -23,7 +24,8 @@ body{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
- 
+
+
 }
 .img-container .top {
     padding-top: 45px;
@@ -31,6 +33,7 @@ body{
     height: 45%;
     align-items: center;
     gap: 15px;
+    object-fit: cover;
 
 }
 .top {
@@ -45,14 +48,26 @@ body{
     height: 230px;
     border-radius: 200px;
     width: 150px;
+    object-fit: cover;
 }
+.top img{
+    height: 100%;
+    width: 100%;
+    border-radius: 200px;
+    object-fit: cover;
+}
+/* .top img{
+    object-fit: cover;
+} */
 .img-container .top .img2{
     flex: 1 1 70%;
     background-color: rgb(13, 0, 255);
     height: 230px;
     border-radius: 200px;
     width: 150px;
+    /* object-fit: cover; */
 }
+
 .img-container .bot {
     /* border: 2px solid rgb(13, 255, 0); */
     width: 100%;
@@ -68,7 +83,12 @@ body{
     width: 100%;
     display: flex;
 }
-
+.bot img{
+    height: 100%;
+    width: 100%;
+    border-radius: 200px;
+    object-fit: cover;
+}
 .img-container .bot .img3{
     flex: 1 1 70%;
     background-color: rgb(255, 123, 0);
