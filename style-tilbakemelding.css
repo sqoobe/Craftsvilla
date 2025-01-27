@@ -155,4 +155,11 @@ p{
     line-height: 200%; /* 40px */
     letter-spacing: -0.4px;
 }
+a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color: #000000;
+  }
 
