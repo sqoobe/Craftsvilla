@@ -2,6 +2,28 @@
     margin: 0;
     padding: 0;
 }
+.top-vector{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: end;
+    margin-bottom: -234px;
+    margin-right: 20px;
+}
+#top-img{
+    /* border: 5px solid red; */
+    z-index: 1;
+}
+.bottom-vector{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: start;
+    margin-top: -158px;
+}
+#bottom-img{
+    /* border: 5px solid red; */
+    z-index: 1;
+
+}
 body{
     background-color: black;
 }
