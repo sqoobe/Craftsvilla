@@ -63,6 +63,7 @@ body{
     width: auto;
     margin: 50px;
 
+
 }
 .christy-img{
     width: 280px;
@@ -100,7 +101,9 @@ img{
     height: 580px;
     margin: 10px;
 
+
 }
+
 .text-box h1 {
     padding-top: 15%;
     width: 80%;
@@ -159,7 +162,23 @@ a {
     text-decoration: none;
     color: white;
   }
+a:visited {
+    color: white;
+}
   a:hover {
     color: #000000;
-  }
+}
 
+
+/* .top-vector{    
+    border: 2px solid blue;
+    display: flex;
+    justify-content: end;
+    width: 100vh;
+    flex-direction: row;
+}
+.top-vector img{
+    border: 5px solid red;
+    width: 100%;
+    z-index: 1;
+} */
